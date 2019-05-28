@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font: bold 14px sans-serif;
+}
+
+
+/*Este estilo es para que todos esten en bloque es decir uno acontinuacion del otro
+o uno debajo del otro*/
+
+header,
+section,
+footer,
+aside,
+nav,
+article,
+hgroup {
+    display: block;
+}
+
+body {
+    text-align: center;
+}
+
+.agrupar {
+    width: 960px;
+    border: 1px solid black;
+    margin: 15px auto;
+    background: white;
+}
+
+.cabecera {
+    background: #FFFBB9;
+    border: 1px solid #999999;
+    padding: 20px;
+}
+
+
+/* Para poner estilos a todos los h1 que estan dentro de la clase cabecera*/
+
+.cabecera h1 {
+    text-align: left;
+}
+
+.menu {
+    background: #ccc;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+
+/* Para poner estilos a todas las listas que estan dentro de la clase menu*/
+
+.menu li {
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+
+.seccion {
+    margin: 20px;
+    width: 60%;
+    float: left;
+}
+
+article {
+    background: #fffbcc;
+    border: 1px solid #999;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+time {
+    color: #999;
+}
+
+
+/* Para poner estilos a todos los footers que estan dentro de article*/
+
+article footer {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.columnafloat {
+    width: 30%;
+    float: left;
+    margin: 20px 0;
+}
+
+
+/* Para poner estilos a todos los blockquote que estan dentro de la clase columna*/
+
+.columnafloat blockquote {
+    border: 1px solid black;
+    padding: 40px;
+    background: #FFFBB9;
+    margin-bottom: 20px;
+}
+
+.pie {
+    clear: both;
+    padding: 20px;
+    background: #2d3436;
+    color: #ffffff;
+}
+
+img {
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+}
